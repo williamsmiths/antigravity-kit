@@ -62,6 +62,38 @@ export default function CLIPage() {
                         </div>
                     </div>
 
+                    {/* init cursor */}
+                    <div>
+                        <h3 className="text-xl font-semibold text-zinc-900 dark:text-zinc-50 mb-3">
+                            <code className="font-mono">ag-kit init cursor</code>
+                        </h3>
+                        <p className="text-base text-zinc-600 dark:text-zinc-400 mb-4">
+                            Install Antigravity Kit “coding protocol” rules for Cursor into <code className="px-1 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs">.cursor/rules/</code>.
+                        </p>
+
+                        <div className="relative group mb-4">
+                            <pre className="p-4 rounded-lg bg-zinc-900 dark:bg-zinc-900 overflow-x-auto border border-zinc-800 font-mono text-sm">
+                                <code className="text-zinc-100">ag-kit init cursor</code>
+                            </pre>
+                        </div>
+                    </div>
+
+                    {/* init github copilot */}
+                    <div>
+                        <h3 className="text-xl font-semibold text-zinc-900 dark:text-zinc-50 mb-3">
+                            <code className="font-mono">ag-kit init github</code>
+                        </h3>
+                        <p className="text-base text-zinc-600 dark:text-zinc-400 mb-4">
+                            Install repository-wide GitHub Copilot instructions into <code className="px-1 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs">.github/copilot-instructions/</code>.
+                        </p>
+
+                        <div className="relative group mb-4">
+                            <pre className="p-4 rounded-lg bg-zinc-900 dark:bg-zinc-900 overflow-x-auto border border-zinc-800 font-mono text-sm">
+                                <code className="text-zinc-100">ag-kit init github</code>
+                            </pre>
+                        </div>
+                    </div>
+
                     {/* update */}
                     <div>
                         <h3 className="text-xl font-semibold text-zinc-900 dark:text-zinc-50 mb-3">

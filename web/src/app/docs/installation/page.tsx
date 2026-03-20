@@ -76,7 +76,14 @@ export default function InstallationPage() {
 ├── skills/          # 40+ Skills
 ├── workflows/       # 11 Slash Commands
 ├── rules/           # Workspace Rules
-└── ARCHITECTURE.md  # Full documentation`}
+└── ARCHITECTURE.md  # Full documentation
+
+# IDE-specific instructions (optional)
+.cursor/rules/antigravity-kit.md
+.github/copilot-instructions.md
+.github/copilot-instructions/
+└── 01-agent-protocol.md
+└── 02-quality-gates.md`}
         </pre>
 
         <div className="space-y-4">
@@ -102,6 +109,20 @@ export default function InstallationPage() {
             <h3 className="font-semibold text-zinc-900 dark:text-zinc-50 mb-2">rules/</h3>
             <p className="text-sm text-zinc-600 dark:text-zinc-400">
               Workspace configuration including <code className="px-1 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs">GEMINI.md</code> for behavior rules
+            </p>
+          </div>
+
+          <div className="p-4 rounded-lg border border-zinc-200 dark:border-zinc-800">
+            <h3 className="font-semibold text-zinc-900 dark:text-zinc-50 mb-2">Cursor rules</h3>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400">
+              Provides workspace-specific “coding protocol” for Cursor via <code className="px-1 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs">.cursor/rules/</code>.
+            </p>
+          </div>
+
+          <div className="p-4 rounded-lg border border-zinc-200 dark:border-zinc-800">
+            <h3 className="font-semibold text-zinc-900 dark:text-zinc-50 mb-2">GitHub Copilot instructions</h3>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400">
+              Repository-wide instructions for Copilot via <code className="px-1 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 font-mono text-xs">.github/copilot-instructions*.md</code>.
             </p>
           </div>
         </div>
